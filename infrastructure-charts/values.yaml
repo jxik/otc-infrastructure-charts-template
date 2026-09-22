@@ -32,6 +32,10 @@ charts:
     parameters:
       "kafka.replicaCount": "2"
   
+  gpu-llm:
+    namespace: ai
+    path: "local-charts/gpu-llm"
+
   elastic-operator:
     namespace: monitoring
     targetRevision: 9.0.5-bitnamilegacy
